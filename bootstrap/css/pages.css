@@ -1,0 +1,32 @@
+body {
+  padding-top: 50px;
+  font-family: Montserrat, sans-serif;
+}
+.starter-template {
+  padding: 20px 15px;
+  text-align: left;
+}
+.navbar-inner{padding-left: 250px}
+.question{}
+.answer{}
+.sidebar_left{float:left; max-width: 50px}
+.segment_lead{background-color: #555555; 
+             color: white;
+             max-height: 5px;
+             font-size: 30px
+}
+.footer {
+    position:fixed;bottom:0;
+    width:100%;
+    display:block;
+    margin-top: 20px
+}
+details p{background-color: #d5d5d5;
+}
+details summary{font-size:20px}
+.info_tab{height:200px}
+.info_tab2{padding-bottom: 40px}
+#lendr_registration label.error, #lendr_registration input.submit {
+                color:#fb3a3a; font-size: small}
+#pswd_verify label.error, #pswd_verify input.submit {
+                color:#fb3a3a; font-size: small}

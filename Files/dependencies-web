@@ -1,0 +1,35 @@
+<?php
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of dependencies
+ *
+ * @author gigaloluwa
+ */
+class dependencies {
+    //put your code here
+    var $index = 'http://lendr-project.mylab-agnosys.com/index.php';
+    var $about = '../pages/aboutus.php';
+    var $howitworks = '../pages/howItWorks.php';
+    var $invest = '../pages/signin.php';
+    var $borrow ='../pages/signin.php';
+    var $contact = '#';
+    var $repayment_calculator = '../pages/loanRepaymentCalculator.php';
+    var $qualify_yn = '#';
+    var $register = '../pages/register.php';
+    var $FAQs = '../pages/FAQs.php';
+    var $marketPlace = '../marketPlace/marketPlace.php';
+    var $db_host = 'mysql:host=localhost;dbname=lendr';
+    var $db_usn = 'gigaloluwa';
+    var $db_psw = 'gigaloluwa';
+    var $market = '../marketPlace/marketPlace.php';
+    var $smtp_server = 'p3plcpnl0224.prod.phx3.secureserver.net';
+    var $smtp_port = 465;
+    var $smtp_usn = 'info@mylab-agnosys.com';
+    var $smtp_psw = 'Esteesel2ndone';
+}
